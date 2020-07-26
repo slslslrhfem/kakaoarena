@@ -533,16 +533,3 @@ for songplylst_parameter in songplylst_parameters:
 +str(albumsong_parameter)+str(artistsong_parameter)+'results.json', 'w',encoding='utf-8') as fp:
             json.dump(answer_dicts, fp,ensure_ascii=False)
 
-with open('/content/drive/My Drive/Kakao Arena/'+str(tagplylst_parameter)+str(songplylst_parameter)+str(titleplylst_parameter)
-+str(albumsong_parameter)+str(artistsong_parameter)+'results.json', 'w') as fp:
-    json.dump(answer_dicts, fp)
-
-#tot_songs[i]가 dict가 담겨있고(곡id : 숫자 형태) 숫자가 제일 높은 곡 id n개를 일단 잡으면 된다.
-for i in range(test.shape[0]):
-  answer_dict={}
-  pred_songs=[]
-  pred_tags=[]
-  id=test.loc[i,'id']
-  pred_songs.extend(test.loc[i,'songs'])
-  pred_tags.extend(test.loc[i,'tags'])
-  songs in test.loc[i,'songs']:#플레이 리스트마다 50번 도는거임. 50번 아닐수도 있더군요..
