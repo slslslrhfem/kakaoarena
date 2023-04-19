@@ -1,7 +1,7 @@
 # kakaoarena
 
 This code is edited in Colab.\
-.py파일보다 .ipynb를 통해 구동하는 것을 추천드립니다. 다만 .ipynb 마지막 블록 몇개 무의미한 블록이 있습니다. 이는 구동 여부가 큰 상관이 없습니다.
+.py파일보다 .ipynb를 통해 구동하는 것을 추천드립니다.
 
 코드상의 파일 경로에 유의해주시기 바랍니다.\
 코드의 후반부 리스트를 저장하는 경로와 불러오는 경로가 일치되어야 합니다.
@@ -9,6 +9,8 @@ This code is edited in Colab.\
 중간고사대체과제 화이팅
 
 #코드 해설
+
+Collaborative Filtering을 다양한 Parameter에 대해 진행합니다.
 
 위는 주어진 Playlist의 요소들에 대하여 5가지 Parameter를 제공합니다.
 Playlist에 곡이 일부 주어져 있다면,
